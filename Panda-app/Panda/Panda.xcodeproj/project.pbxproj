@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3FEDA5F62BD7738B00996105 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA5F52BD7738B00996105 /* AppDelegate.swift */; };
+		3FEDA5F82BD7738B00996105 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA5F72BD7738B00996105 /* SceneDelegate.swift */; };
+		3FEDA5FA2BD7738B00996105 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA5F92BD7738B00996105 /* ViewController.swift */; };
+		3FEDA5FD2BD7738B00996105 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDA5FC2BD7738B00996105 /* Base */; };
+		3FEDA5FF2BD7738B00996105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDA5FE2BD7738B00996105 /* Assets.xcassets */; };
+		3FEDA6022BD7738B00996105 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 3FEDA6012BD7738B00996105 /* Base */; };
+		3FEDA60D2BD7738B00996105 /* PandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA60C2BD7738B00996105 /* PandaTests.swift */; };
+		3FEDA6172BD7738B00996105 /* PandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA6162BD7738B00996105 /* PandaUITests.swift */; };
+		3FEDA6192BD7738B00996105 /* PandaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA6182BD7738B00996105 /* PandaUITestsLaunchTests.swift */; };
+		3FEDA6282BD779EE00996105 /* QuizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA6272BD779EE00996105 /* QuizzViewController.swift */; };
+		3FEDA62A2BD7B92C00996105 /* QuizzTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEDA6292BD7B92C00996105 /* QuizzTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FEDA6092BD7738B00996105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEDA5EA2BD7738A00996105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEDA5F12BD7738B00996105;
+			remoteInfo = Panda;
+		};
+		3FEDA6132BD7738B00996105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FEDA5EA2BD7738A00996105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FEDA5F12BD7738B00996105;
+			remoteInfo = Panda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3FEDA5F22BD7738B00996105 /* Panda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEDA5F52BD7738B00996105 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FEDA5F72BD7738B00996105 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FEDA5F92BD7738B00996105 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FEDA5FC2BD7738B00996105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FEDA5FE2BD7738B00996105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FEDA6012BD7738B00996105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FEDA6032BD7738B00996105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FEDA6082BD7738B00996105 /* PandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEDA60C2BD7738B00996105 /* PandaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaTests.swift; sourceTree = "<group>"; };
+		3FEDA6122BD7738B00996105 /* PandaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PandaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FEDA6162BD7738B00996105 /* PandaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaUITests.swift; sourceTree = "<group>"; };
+		3FEDA6182BD7738B00996105 /* PandaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PandaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3FEDA6272BD779EE00996105 /* QuizzViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzViewController.swift; sourceTree = "<group>"; };
+		3FEDA6292BD7B92C00996105 /* QuizzTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizzTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FEDA5EF2BD7738B00996105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA6052BD7738B00996105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA60F2BD7738B00996105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FEDA5E92BD7738A00996105 = {
+			isa = PBXGroup;
+			children = (
+				3FEDA5F42BD7738B00996105 /* Panda */,
+				3FEDA60B2BD7738B00996105 /* PandaTests */,
+				3FEDA6152BD7738B00996105 /* PandaUITests */,
+				3FEDA5F32BD7738B00996105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3FEDA5F32BD7738B00996105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDA5F22BD7738B00996105 /* Panda.app */,
+				3FEDA6082BD7738B00996105 /* PandaTests.xctest */,
+				3FEDA6122BD7738B00996105 /* PandaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FEDA5F42BD7738B00996105 /* Panda */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDA5F52BD7738B00996105 /* AppDelegate.swift */,
+				3FEDA5F72BD7738B00996105 /* SceneDelegate.swift */,
+				3FEDA6272BD779EE00996105 /* QuizzViewController.swift */,
+				3FEDA5F92BD7738B00996105 /* ViewController.swift */,
+				3FEDA6292BD7B92C00996105 /* QuizzTableViewCell.swift */,
+				3FEDA5FB2BD7738B00996105 /* Main.storyboard */,
+				3FEDA5FE2BD7738B00996105 /* Assets.xcassets */,
+				3FEDA6002BD7738B00996105 /* LaunchScreen.storyboard */,
+				3FEDA6032BD7738B00996105 /* Info.plist */,
+			);
+			path = Panda;
+			sourceTree = "<group>";
+		};
+		3FEDA60B2BD7738B00996105 /* PandaTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDA60C2BD7738B00996105 /* PandaTests.swift */,
+			);
+			path = PandaTests;
+			sourceTree = "<group>";
+		};
+		3FEDA6152BD7738B00996105 /* PandaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FEDA6162BD7738B00996105 /* PandaUITests.swift */,
+				3FEDA6182BD7738B00996105 /* PandaUITestsLaunchTests.swift */,
+			);
+			path = PandaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FEDA5F12BD7738B00996105 /* Panda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEDA61C2BD7738B00996105 /* Build configuration list for PBXNativeTarget "Panda" */;
+			buildPhases = (
+				3FEDA5EE2BD7738B00996105 /* Sources */,
+				3FEDA5EF2BD7738B00996105 /* Frameworks */,
+				3FEDA5F02BD7738B00996105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Panda;
+			productName = Panda;
+			productReference = 3FEDA5F22BD7738B00996105 /* Panda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FEDA6072BD7738B00996105 /* PandaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEDA61F2BD7738B00996105 /* Build configuration list for PBXNativeTarget "PandaTests" */;
+			buildPhases = (
+				3FEDA6042BD7738B00996105 /* Sources */,
+				3FEDA6052BD7738B00996105 /* Frameworks */,
+				3FEDA6062BD7738B00996105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEDA60A2BD7738B00996105 /* PBXTargetDependency */,
+			);
+			name = PandaTests;
+			productName = PandaTests;
+			productReference = 3FEDA6082BD7738B00996105 /* PandaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FEDA6112BD7738B00996105 /* PandaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FEDA6222BD7738B00996105 /* Build configuration list for PBXNativeTarget "PandaUITests" */;
+			buildPhases = (
+				3FEDA60E2BD7738B00996105 /* Sources */,
+				3FEDA60F2BD7738B00996105 /* Frameworks */,
+				3FEDA6102BD7738B00996105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FEDA6142BD7738B00996105 /* PBXTargetDependency */,
+			);
+			name = PandaUITests;
+			productName = PandaUITests;
+			productReference = 3FEDA6122BD7738B00996105 /* PandaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FEDA5EA2BD7738A00996105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3FEDA5F12BD7738B00996105 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3FEDA6072BD7738B00996105 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3FEDA5F12BD7738B00996105;
+					};
+					3FEDA6112BD7738B00996105 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3FEDA5F12BD7738B00996105;
+					};
+				};
+			};
+			buildConfigurationList = 3FEDA5ED2BD7738A00996105 /* Build configuration list for PBXProject "Panda" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FEDA5E92BD7738A00996105;
+			productRefGroup = 3FEDA5F32BD7738B00996105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FEDA5F12BD7738B00996105 /* Panda */,
+				3FEDA6072BD7738B00996105 /* PandaTests */,
+				3FEDA6112BD7738B00996105 /* PandaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FEDA5F02BD7738B00996105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDA5FF2BD7738B00996105 /* Assets.xcassets in Resources */,
+				3FEDA6022BD7738B00996105 /* Base in Resources */,
+				3FEDA5FD2BD7738B00996105 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA6062BD7738B00996105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA6102BD7738B00996105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FEDA5EE2BD7738B00996105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDA5FA2BD7738B00996105 /* ViewController.swift in Sources */,
+				3FEDA5F62BD7738B00996105 /* AppDelegate.swift in Sources */,
+				3FEDA62A2BD7B92C00996105 /* QuizzTableViewCell.swift in Sources */,
+				3FEDA5F82BD7738B00996105 /* SceneDelegate.swift in Sources */,
+				3FEDA6282BD779EE00996105 /* QuizzViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA6042BD7738B00996105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDA60D2BD7738B00996105 /* PandaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FEDA60E2BD7738B00996105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FEDA6172BD7738B00996105 /* PandaUITests.swift in Sources */,
+				3FEDA6192BD7738B00996105 /* PandaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FEDA60A2BD7738B00996105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEDA5F12BD7738B00996105 /* Panda */;
+			targetProxy = 3FEDA6092BD7738B00996105 /* PBXContainerItemProxy */;
+		};
+		3FEDA6142BD7738B00996105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FEDA5F12BD7738B00996105 /* Panda */;
+			targetProxy = 3FEDA6132BD7738B00996105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FEDA5FB2BD7738B00996105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEDA5FC2BD7738B00996105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FEDA6002BD7738B00996105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FEDA6012BD7738B00996105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FEDA61A2BD7738B00996105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FEDA61B2BD7738B00996105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FEDA61D2BD7738B00996105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.Panda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FEDA61E2BD7738B00996105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Panda/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.Panda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FEDA6202BD7738B00996105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.PandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Panda";
+			};
+			name = Debug;
+		};
+		3FEDA6212BD7738B00996105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.PandaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Panda.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Panda";
+			};
+			name = Release;
+		};
+		3FEDA6232BD7738B00996105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.PandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Panda;
+			};
+			name = Debug;
+		};
+		3FEDA6242BD7738B00996105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Payal-Shubham.PandaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Panda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FEDA5ED2BD7738A00996105 /* Build configuration list for PBXProject "Panda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDA61A2BD7738B00996105 /* Debug */,
+				3FEDA61B2BD7738B00996105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEDA61C2BD7738B00996105 /* Build configuration list for PBXNativeTarget "Panda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDA61D2BD7738B00996105 /* Debug */,
+				3FEDA61E2BD7738B00996105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEDA61F2BD7738B00996105 /* Build configuration list for PBXNativeTarget "PandaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDA6202BD7738B00996105 /* Debug */,
+				3FEDA6212BD7738B00996105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FEDA6222BD7738B00996105 /* Build configuration list for PBXNativeTarget "PandaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FEDA6232BD7738B00996105 /* Debug */,
+				3FEDA6242BD7738B00996105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3FEDA5EA2BD7738A00996105 /* Project object */;
+}
